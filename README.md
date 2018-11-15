@@ -1,6 +1,6 @@
 # Graph Theory and Networks for Drug Discovery 
 
-![iris](https://raw.githubusercontent.com/Vanabins28/db_network/images/P3.png)
+![iris](https://raw.githubusercontent.com/Vanabins28/db_network/master/images/P3.png)
 
 
 Why Graphs?
@@ -10,7 +10,7 @@ Graph data structures provide for a way to store and represent complex, heteroge
 
 Graph data structures are naturally well-suited to be applied to represent and store the complex relationships between drugs/compounds their protein targets and their associated diseases. 
 
-![iris](https://raw.githubusercontent.com/Vanabins28/db_network/images/Drug_example.png)
+![iris](https://raw.githubusercontent.com/Vanabins28/db_network/master/images/Drug_example.png)
 
 
 Applications in Drug Discovery
@@ -20,7 +20,7 @@ These methods are already being used in drug discovery. For example anomaly dete
 Since graph data structures already store relationships between drugs/compounds, protein targets, and diseases, graphs can be used as a graph database that can be used to quickly retrieve select protein targets and the compounds that bind to them. Graph-databases like Neo4j have already been applied to store data related to drug discovery.
 Finally graphs can be used to easily and clerly visualize the complex relationships of the drug/target network.
 
-![iris](https://raw.githubusercontent.com/Vanabins28/db_network/images/P2.png)
+![iris](https://raw.githubusercontent.com/Vanabins28/db_network/master/images/P2.png)
 
 
 This repo describes my work in applying graph and network based methods to drug discovery. Using data from public sources like the ChemBL, MedDRA, UniProt, and OMIM, we can store the complex relationships between these different data sources as a graph database and apply the methods mentioned above to help drug discovery.
