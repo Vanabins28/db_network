@@ -41,7 +41,9 @@ This repo describes my work in applying graph and network based methods to drug 
 Usage
 ---------
 
-I have prepared two tutorials in jupyter notebooks that will describe some techniques and applications of graph network.
+I have prepared tutorials in jupyter notebooks that will describe some techniques and applications of graph network.
+
+0) How to extract data from the ChemBL 24 Postgresql database using psycopg2 and save the protein-ligand interactions in a networkx multigraph. The ChemBL 24 database has a lot of complex information related to protein-ligand assays as well as other information related to individual proteins. [Dataset Creation](https://github.com/Vanabins28/db_network/blob/master/Tutorial_0_Loading_data_into_Graph.ipynb) 
 
 1) How to load the dataset and extract a smaller sub-set based on some selection criteria. Using this smaller sub-set we can generate a training/test set to train and validate a multi-label, random forest classification model that can predict which molecules will interact with which protein. [Dataset Preperation](https://github.com/Vanabins28/db_network/blob/master/Tutorial_1_Graphs_and_Classification.ipynb)
 
